@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: lemonchiffon;
+        width: 200;
+        
+    }
+    .btn{
+        background-color: grey;
+        margin: 5px;
+    }
+    .btn1{
+        background-color: gainsboro;
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <div>
+        <input placeholder="Enter Todo list"  type="text" id="todo-item">
+        <button onclick="addTodo()"> Add Item</button>
+        <button onclick="deleteAll()"> Delete All</button>
+    </div>
+
+<div>
+
+    <ul id="list">  
+
+
+    </ul>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
